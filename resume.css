@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 7% 35% 58%;
+    margin: 0px 0px 10px 0px;
+    background-color:white;
+    font-family: Georgia;
+}
+.nav{
+    display:flex;
+    text-align: right;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:bisque;
+    border-bottom: 3px white;
+    position: fixed;
+    left:0;
+    right:0;
+    bottom:93%;
+    top:0%;
+    padding-left: 90%;
+    font-size: 100%;
+    font-weight: bold;
+    color:brown;
+}
+.personal{
+    text-align: center;
+    background-color:rgb(167, 99, 11);
+    border-top: 7px solid rgb(167, 99, 11);
+    border-bottom: 7px solid rgb(167, 99, 11);
+    padding:67px 3px 3px 3px;
+    color: aliceblue;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 2;
+    grid-row-end:4;
+    position:fixed;
+    left:0;
+    top:7%;
+    right:70%;
+    bottom:0%;
+
+}
+.personal h4{
+    color:aliceblue;
+}
+h1{
+    font-family: Verdana;
+}
+h4{
+    font-style: italic;
+    color:brown;
+}
+.contents{
+    padding: 20px 20px 20px 60px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 100%;
+    
+}
+hr{
+    border-top: 4px dotted;
+}
